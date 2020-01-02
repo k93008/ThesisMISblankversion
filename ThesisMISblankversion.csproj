@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="1.Login\test.aspx" />
     <Content Include="2.Administrator\AD_1mainpage.aspx" />
     <Content Include="2.Administrator\AD_2points.aspx" />
     <Content Include="2.Administrator\AD_3students.aspx" />
@@ -91,6 +92,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="1.Login\test.aspx.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="1.Login\test.aspx.designer.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+    </Compile>
     <Compile Include="2.Administrator\AD_1mainpage.aspx.cs">
       <DependentUpon>AD_1mainpage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
